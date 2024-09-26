@@ -33,9 +33,14 @@ h1, h2, h3, h4 {
   line-height: var(--lh-tight);
 }
 
+h2 i {
+  color: inherit !important; 
+}
+
 h1, h2, h3, h4, p, blockquote {
   margin-bottom: var(--size-m);
 }
+
 
 h1 {
   font-size: var(--size-l);
