@@ -206,4 +206,23 @@ section + section{
   object-position: center; /* Zentriert das Bild im Rechteck */
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
+.fancybox-navigation .fancybox-button--arrow_left svg {
+  width: 150px;  /* Breite des Pfeils */
+  height: 150px; /* Höhe des Pfeils */
+}
+/* stylelint-disable-next-line selector-class-pattern */
+.fancybox-navigation .fancybox-button--arrow_right svg{
+  width: 150px;  /* Breite des Pfeils */
+  height: 150px; /* Höhe des Pfeils */
+}
 
+/* stylelint-disable-next-line selector-class-pattern */
+.fancybox-navigation .fancybox-button--arrow_right {
+  right: 110px !important; /* Abstand des rechten Pfeils vom Rand */
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.fancybox-navigation .fancybox-button--arrow_left {
+  left: 10px !important; /* Abstand des linken Pfeils vom Rand */
+}
