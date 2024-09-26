@@ -143,3 +143,41 @@ section + section{
   background-color: var(--color-green);
 }
 
+/* Grid Layout für abgeschlossene Arbeiten */
+.is-grid {
+  display: grid;
+  gap: var(--size-m);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.work-item {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background-color: #fff;
+}
+
+.work-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.work-content {
+  padding: var(--size-m);
+}
+
+.work-content h3 {
+  margin-bottom: var(--size-s);
+  color: var(--color-darkblue);
+  font-size: var(--font-size-l);
+}
+
+.work-content p {
+  color: var(--color-dark);
+  font-size: var(--font-size-m);
+}
+
+
