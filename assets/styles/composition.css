@@ -180,4 +180,30 @@ section + section{
   font-size: var(--font-size-m);
 }
 
+.image-gallery {
+  margin: 2em 0;
+}
+
+.gallery-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr); /* 5 Spalten */
+  
+}
+
+.gallery-item {
+  overflow: hidden;
+  width: 100%;
+  height: 150px; /* Höhe der Rechtecke festlegen */
+  
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px; /* Optional: Abgerundete Ecken für die Bilder */
+  object-fit: cover; /* Stellt sicher, dass die Bilder in das Rechteck passen und bei Bedarf zugeschnitten werden */
+  object-position: center; /* Zentriert das Bild im Rechteck */
+}
+
 
