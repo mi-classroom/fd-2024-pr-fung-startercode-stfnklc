@@ -78,3 +78,68 @@
 section + section{
   margin-top: var(--size-xl);
 }
+
+/* Abschnitt "Thema vorschlagen" */
+
+.themenwunsch {
+  padding: var(--size-l);
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  text-align: left;
+}
+
+.themenwunsch h2{
+  color: var(--color-light);
+}
+
+.themenwunsch h2 i{
+  color: var(--color-light);
+}
+
+.form-suggestion {
+  display: grid;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: var(--size-m);
+  text-align: left;
+  
+}
+
+.form-suggestion label {
+  color: var(--color-light);
+  font-size: var(--base-font-size);
+  
+}
+
+.form-suggestion input, .form-suggestion textarea {
+  width: 100%;
+  padding: var(--size-s);
+  border: none;
+  border-bottom: 2px solid var(--color-pink);
+  background: transparent;
+  color: var(--color-light);
+  font-family: var(--font-family-sans);
+  font-size: var(--base-font-size);
+  
+}
+
+.form-suggestion input:focus, .form-suggestion textarea:focus {
+  border-bottom-color: var(--color-green);
+  outline: none;
+  
+}
+
+.btn-submit {
+  padding: var(--size-s) var(--size-m);
+  border: none;
+  background-color: var(--color-pink);
+  color: var(--color-light);
+  cursor: pointer;
+  font-size: var(--base-font-size);
+  transition: background-color var(--tr-fast);
+}
+
+.btn-submit:hover {
+  background-color: var(--color-green);
+}
+
